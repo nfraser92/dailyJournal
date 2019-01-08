@@ -1,4 +1,28 @@
+/* Universal Selectors*/
+/* * {
+    background-color: gray;
+} */
+
 fieldset {
     display: flex;
     flex-direction: column;
+    font-weight: bold;
+    background-color: lightgrey;
+    border: 1px dashed grey;
+    margin-bottom: 10px;
+    width: 400px;
+    margin: auto;
+}
+
+.main_header {
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+    border: 1px dashed grey;
+    background: lightblue;
+    font-style: italic; 
+}
+
+.topics {
+    padding: 2px 5px;
+    font-family: 'Didact Gothic', sans-serif;
 }

@@ -3,35 +3,38 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Daily Journal</title>
+    <title>Niall's Daily Journal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="styles/journal.css" />
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Rajdhani" rel="stylesheet">
 </head>
 <body>
-    <h1>Daily Journal</h1>
+    <h1 class="main_header">Daily Journal</h1>
     <form action="" >
         <fieldset>
-            <label for="journalDate">Date of Entry</label>
-            <input type="date" name="journalDate" id="journalDate">
+            <label for="journalDate" class="topics">Date of Entry</label>
+            <input type="date" name="journalDate" id="journalDate" class="text_fields">
         </fieldset>
     </form>
     <form action="">
         <fieldset>
-            <label for="conceptsCovered">Concepts Covered</label>
-            <input type="text" name="conceptsCovered" id="conceptsCovered">
+            <label for="conceptsCovered" class="topics">Concepts Covered</label>
+            <input type="text" name="conceptsCovered" id="conceptsCovered" class="text_fields">
         </fieldset>
     </form>
     </form>
     <form action="">
         <fieldset>
-            <label for="journaEntry">Journal Entry</label>
-            <input type="text" name="journalEntry" id="journalEntry">
+            <label for="journaEntry" class="topics">Journal Entry</label>
+            <input type="text" name="journalEntry" id="journalEntry" class="text_fields" >
         </fieldset>
     </form>
     <form action="">
         <fieldset>
-            <label for="moodForDay">Journal Entry</label>
-            <select name="mood" id="moodForDay"> 
+            <label for="moodForDay" class="topics" >Journal Entry</label>
+            <select name="mood" id="moodForDay" class="text_fields"> 
                     <option value="happy">Happy</option>
                     <option value="sad">Sad</option>
                     <option value="stressed">Stressed</option>
@@ -39,5 +42,6 @@
             </select>
         </fieldset>
     </form>
+    <div class="bottom_bar"></div>
 </body>
 </html>
