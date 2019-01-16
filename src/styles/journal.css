@@ -11,6 +11,12 @@ fieldset {
     margin-bottom: 10px;
 }
 
+button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
 /* Main title on page */
 .main_header {
     font-family: 'Didact Gothic', sans-serif;
