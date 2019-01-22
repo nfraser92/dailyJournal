@@ -1,4 +1,8 @@
 /* elements  */
+body {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
 fieldset {
     display: flex;
     flex-direction: column;
@@ -12,14 +16,13 @@ fieldset {
 }
 
 button {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    margin:auto;
+    display:block;
 }
 
 /* Main title on page */
 .main_header {
-    font-family: 'Didact Gothic', sans-serif;
+    /* font-family: 'Didact Gothic', sans-serif; */
     text-align: center;
     border: 1px solid grey;
     background: lightblue; 
@@ -28,5 +31,10 @@ button {
 /* Changes to Labels */
 .topics {
     padding: 2px 5px;
-    font-family: 'Didact Gothic', sans-serif;
+    /* font-family: 'Didact Gothic', sans-serif; */
+}
+
+.journal__entries {
+    /* font-family: 'Didact Gothic', sans-serif; */
+    border-top: 56px solid grey;
 }
