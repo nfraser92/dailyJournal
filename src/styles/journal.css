@@ -36,4 +36,6 @@ button {
 
 .journal__entries {
     /* font-family: 'Didact Gothic', sans-serif; */
+    margin: 20px;
+    border-bottom: 15px solid grey;
 }

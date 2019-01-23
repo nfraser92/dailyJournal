@@ -7,22 +7,16 @@
         "mood": "Happy"
     },
     {
-        "date": "January 20th, 2019",
-        "conceptsCovered": "Recovered everything from last week.",
-        "entry": "Tackled all the issues from last week I needed to.",
-       "mood": "Overwhelmed"
-    }, 
-    {
         "date": "January 21st, 2019", 
-        "conceptsCovered": "Coverting js into HTML representation on the DOM",
-        "entry": "Successfully wrote code to display journal entries on the DOM",
+        "conceptsCovered": "Converting js into HTML representation on the DOM",
+        "entry": "Successfully wrote code to display journal entries on the DOM. Started fetching data from API",
         "mood": "Overwhelmed"
     },
     {
         "date": "January 22nd, 2019", 
         "conceptsCovered": "Used fetch to connect api data with js file",
-        "entry": "Wasn't running both servers, so it took a minute to figure out why it wasn't loading on the brower",
-        "mood": "Overwhelmed"
+        "entry": "Finished chapter 4 of daily journal as well as food-api exercise. Undefined issue was caused by duplication of fetch method as well as one ingerdients tab not being filled.",
+        "mood": "Happy"
 
     }
 

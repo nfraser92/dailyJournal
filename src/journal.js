@@ -11,7 +11,7 @@ fetch("http://localhost:3000/entries") //implementation of a promise //make the 
     const createEntryHTMLComponent = completedEntry => {
         return `
     <section class="journal_entries">
-        <section class="entryDate">${completedEntry.date}</section>
+        <section class="entryDate"><h3>${completedEntry.date}</h3></section>
         <section class="entryConcepts"> Concepts Covered: ${completedEntry.conceptsCovered}</section>
         <section class="entryEntry">Entry: ${completedEntry.entry}</section>
         <section class="entryMood"> Mood: ${completedEntry.mood}</section>
