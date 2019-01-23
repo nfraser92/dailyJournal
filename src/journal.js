@@ -1,31 +1,24 @@
-/*
-    Purpose: To create, and return, a string template that
-    represents a single journal entry object as HTML
+fetch("http://localhost:3000/entries") //implementation of a promise //make the request
+    .then(entries => entries.json()) //taking a string and then turning into a js object//parsing the response
+    .then(parsedEntries => { //parsedEntries is the argument to the function //this function is anonymous/now we can do shit
+        parsedEntries.forEach(entries => {
+            const entryHTML = createEntryHTMLComponent(entries)
+            printEntry(entryHTML)
 
-    Arguments: journalEntry (object)
-*/
-const makeJournalEntryComponent = (journalEntry) => {
-    return `
-    section class="journal_section"
-    <h3>${journalDate}</h3>
-    <h3>${conceptsCovered}</h3>
-    <p>${journalEntry}</p>
-    <p>${moodForDay}</p>
+        })
+    })
+
+    const createEntryHTMLComponent = completedEntry => {
+        return `
+    <section class="journal_entries">
+        <section class="entryDate">${completedEntry.date}</section>
+        <section class="entryConcepts"> Concepts Covered: ${completedEntry.conceptsCovered}</section>
+        <section class="entryEntry">Entry: ${completedEntry.entry}</section>
+        <section class="entryMood"> Mood: ${completedEntry.mood}</section>
     </section>
     `
+    }
+
+const printEntry = entryHTML => {
+    document.querySelector(".journal_entries").innerHTML += entryHTML
 }
-
-const journalSection = document.querySelector("#journal_section")
-
-// Create HTML structure and add to DOM
-for (let entry of objectsJournalEntry) {
-    let newEntry = makeJournalEntryComponent(entry)
-    journalSection.innerHTML += newEntry
-}
-
-const renderJournalEntries = (entry) => {
-    const journalEl = document.querySelector("#journalSection")
-}
-
-// Invoke the render function
-renderJournalEntries(entry)
