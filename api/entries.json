@@ -1,0 +1,30 @@
+{ 
+    "entries": [
+    {
+        "date": "January 13th, 2019",
+        "conceptsCovered": "Objects",
+        "entry": "learning how to create an object to push into an array for my journal entries",
+        "mood": "Happy"
+    },
+    {
+        "date": "January 21st, 2019",
+        "conceptsCovered": "Converting js into HTML representation on the DOM",
+        "entry": "Successfully wrote code to display journal entries on the DOM. Started fetching data from API",
+        "mood": "Overwhelmed"
+    },
+    {
+        "date": "January 22nd, 2019",
+        "conceptsCovered": "Used fetch to connect api data with js file",
+        "entry": "Finished chapter 4 of daily journal as well as food-api exercise. Undefined issue was caused by duplication of fetch method as well as one ingerdients tab not being filled.",
+        "mood": "Happy"
+
+    },
+    {
+        "date": "January 30th, 2019",
+        "conceptsCovered": " Modularization of code",
+        "entry": "Splittng up code into different files so that one js file on deals with one specific thing.",
+        "mood": "Happy"
+    }
+    
+]
+}
