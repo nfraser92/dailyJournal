@@ -17,26 +17,26 @@
         <form action="">
             <fieldset>
                 <label for="journalDate" class="topics">Date of Entry</label>
-                <input type="date" name="journalDate" id="journalDate" class="text_fields">
+                <input type="date" name="journalDate" required id="journalDate" class="text_fields">
             </fieldset>
         </form>
         <form action="">
             <fieldset>
                 <label for="conceptsCovered" class="topics">Concepts Covered</label>
-                <input type="text" name="conceptsCovered" id="conceptsCovered" class="text_fields">
+                <input type="text" name="conceptsCovered" required id="conceptsCovered" class="text_fields">
             </fieldset>
         </form>
         </form>
         <form action="">
             <fieldset>
                 <label for="journaEntry" class="topics">Journal Entry</label>
-                <input type="text" name="journalEntry" id="journalEntry" class="text_fields">
+                <input type="text" name="journalEntry" required id="journalEntry" class="text_fields">
             </fieldset>
         </form>
         <form action="">
             <fieldset>
                 <label for="moodForDay" class="topics">Journal Entry</label>
-                <select name="mood" id="moodForDay" class="text_fields">
+                <select name="mood" required id="moodForDay" class="text_fields">
                     <option value="happy">Happy</option>
                     <option value="comfortbale">comfortbale</option>
                     <option value="understanding">Understanding</option>
@@ -47,7 +47,7 @@
         </form>
     </div>
    <div class ="entry_button">
-    <button type="button" class="record_entry">Record Journal Entry</button>
+    <button type="button" id="saveButton" class="record_entry">Record Journal Entry</button>
 </div>
 
 <section class="journal_entries">

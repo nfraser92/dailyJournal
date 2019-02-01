@@ -9,3 +9,12 @@ const createEntryHTMLComponent = completedEntry => {
 </section>
 `
 }
+
+// alert user to enter text into form fields
+// function validateForm() {
+//     var x = document.forms["myForm"][validateForm].value;
+//     if (x === "") {
+//       alert("Name must be filled out");
+//       return false;
+//     }
+//   }
